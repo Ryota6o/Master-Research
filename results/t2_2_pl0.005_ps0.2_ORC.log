@@ -1,0 +1,15 @@
+[config] p=0.004 snr=8.4 beta=0.05 p_S_avg=0.0319 p_leak=0.005 p_seep=0.2 rho=0.0245 mean_dur=5.03 shots=2000 workers=22
+[data] det rate ideal=0.1209 hard=0.1738  leaked aux meas=0.0242
+[flags] B2 precision=0.027 recall=0.008 flagged=0.0074
+[flags] B3 precision=nan recall=0.000 flagged=0.0000
+[ORC] 539s  BP conv=0.103  LER: 212/2000 = 0.1060  [CP95%: 0.0928, 0.1203]  latency median 6.31 s, p99 6.77 s
+[pairs] 対応のある比較（左だけ失敗, 右だけ失敗）
+  B0 vs B1: (320, 83)
+  B1 vs B2: (43, 69)
+  B1 vs B3: (0, 0)
+  B2 vs B3: (69, 43)
+  B3 vs B3s: (83, 88)
+  B1 vs B3s: (83, 88)
+  B1 vs ORC: (157, 51)
+  B3s vs ORC: (164, 53)
+[T2-2] B1 < B0: PASS   B3 <= B2: PASS

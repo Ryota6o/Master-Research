@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+
+# 学習済み重み（1 個 15 MB。再学習できるので Git には置かない）
+runs/**/*.pt
+
+# 評価の中間生成物（ショットごとの fail mask 等。evaluate.py で再生成できる）
+runs/**/eval_t22.npz
+runs/**/eval_t22_hybrid.npz
+runs/**/t22_best.npz
+
+# 動作確認の残骸（16 ショット・p_leak=0.02）
+results/_smoketest_16shots_pl0.02.npz
+
+# 一時ファイル
+*.tmp
+nohup.out
+
+# 手元用（就活の予定を含むので公開しない）
+SCHEDULE.local.md
+*.local.md

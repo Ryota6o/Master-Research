@@ -1,0 +1,17 @@
+{
+ "run": "runs/r3_soft_seq",
+ "step": 200000,
+ "ler": 0.375,
+ "fails": 750,
+ "n": 2000,
+ "logical_bce": 0.20286879688501358,
+ "leak_bce": 0.06330961734056473,
+ "leak_precision": 0.7791801972918326,
+ "leak_recall": 0.43475436737205564,
+ "leak_auc": 0.9521478250286025,
+ "b4_leak_auc": null,
+ "latency_gpu_median_s": 0.0006557575252372772,
+ "latency_gpu_p99_s": 0.0008346566441468894,
+ "latency_cpu_median_s": 0.0050400579639244825,
+ "latency_cpu_p99_s": 0.005346780693507754
+}

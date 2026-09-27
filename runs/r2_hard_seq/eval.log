@@ -1,0 +1,8 @@
+[r2_hard_seq] repr=hard single_shot=False step=185000
+  LER(T2-2 shots): 1029/2000 = 0.5145  [CP95%: 0.4923, 0.5366]
+  leak head: precision=0.639 recall=0.113 AUC=0.867 flagged=0.0051
+  vs B1 (0.1590): B1だけ失敗=57 モデルだけ失敗=768
+  vs B3s (0.1615): B3sだけ失敗=45 モデルだけ失敗=751
+  vs ORC (0.1060): ORCだけ失敗=30 モデルだけ失敗=847
+  latency GPU batch=1: median 0.0006552 s, p99 0.0009722 s  (n=500)
+  latency CPU batch=1 (12 threads): median 0.004977 s, p99 0.005247 s  (n=50)

@@ -1,0 +1,12 @@
+[r4_raw_single] repr=raw single_shot=True step=200000
+  LER(T2-2 shots): 1796/2000 = 0.8980  [CP95%: 0.8839, 0.9109]
+  leak head: precision=0.707 recall=0.014 AUC=0.872 flagged=0.0005
+  B4 (HMM, 量子ビットごと時間方向の上限): precision=0.787 recall=0.431 AUC=0.958
+  vs B1 (0.1590): B1だけ失敗=12 モデルだけ失敗=1490
+  vs B3s (0.1615): B3sだけ失敗=11 モデルだけ失敗=1484
+  vs ORC (0.1060): ORCだけ失敗=5 モデルだけ失敗=1589
+  latency GPU batch=1: median 0.00 s, p99 0.00 s  (n=500)
+  latency CPU batch=1 (12 threads): median 0.01 s, p99 0.01 s  (n=50)
+  LER(hybrid: leak head → BP-OSD): 281/2000 = 0.1405  [CP95%: 0.1256, 0.1565]  BP conv=0.052  latency median 6.34 s, p99 6.79 s
+  hybrid vs B1 (先頭 2000 ショット): (119, 82)
+  hybrid vs ORC (先頭 2000 ショット): (62, 131)

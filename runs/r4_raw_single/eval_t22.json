@@ -1,0 +1,18 @@
+{
+ "run": "runs/r4_raw_single",
+ "step": 200000,
+ "ler": 0.898,
+ "fails": 1796,
+ "n": 2000,
+ "logical_bce": 0.5478250086307526,
+ "leak_bce": 0.0882689356803894,
+ "leak_precision": 0.7067395264116576,
+ "leak_recall": 0.013931277153423575,
+ "leak_auc": 0.8720628629077244,
+ "b4_leak_auc": 0.9580876018120604,
+ "latency_gpu_median_s": 0.0008913964848034084,
+ "latency_gpu_p99_s": 0.0011399319168413058,
+ "latency_cpu_median_s": 0.006965270498767495,
+ "latency_cpu_p99_s": 0.0073817364469869065,
+ "hybrid_fails": 281
+}

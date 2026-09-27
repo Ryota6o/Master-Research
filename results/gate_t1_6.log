@@ -1,0 +1,11 @@
+[config] p=0.004 snr=8.4 beta=0.05 p_S_avg=0.0319 shots=2000 workers=22
+[data] detector rate ideal=0.1209 hard=0.1634  obs flip rate=0.9950
+[problem] H=(504, 19152) added=144
+[ref ] no-IQ-noise: 266s  BP conv=0.635
+  LER(ref, no IQ noise): 32/2000 = 0.0160  [CP95%: 0.0110, 0.0225]
+[B0  ] hard: 555s  BP conv=0.076
+  LER(B0 hard): 331/2000 = 0.1655  [CP95%: 0.1495, 0.1825]
+[B1  ] soft: 485s  BP conv=0.199
+  LER(B1 soft): 153/2000 = 0.0765  [CP95%: 0.0652, 0.0890]
+[pair] B0 だけ失敗=221  B1 だけ失敗=43  両方失敗=110
+[gate] B1 < B0 : PASS
