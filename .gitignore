@@ -15,9 +15,6 @@ runs/**/eval_t22.npz
 runs/**/eval_t22_hybrid.npz
 runs/**/t22_best.npz
 
-# 動作確認の残骸（16 ショット・p_leak=0.02）
-results/_smoketest_16shots_pl0.02.npz
-
 # 一時ファイル
 *.tmp
 nohup.out
